@@ -1,0 +1,56 @@
+html{
+    font-family: sans-serif;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+header > h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+
+    color: white;
+}
+
+main{
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+
+    background-image: url(./img/trenitalaia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-color{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+.center-container{
+    
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-dati{
+    padding: 20px;
+    border: none;
+    border-radius: 5%;
+
+    background-color: green;
+    color: white;
+}
+
+.button-dati:hover{
+    background-image: url(./img/treno1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

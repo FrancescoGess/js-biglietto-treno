@@ -6,7 +6,7 @@
 //L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali,
 //per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.**
 
-function myFunction() {
+function calcolaPrezzo() {
     let km = (prompt)("Quanti km le servono per arrivare a destinazione", "50");
     let age = (prompt)("Quanti anni hai", "18")
     let ticketPrice;
